@@ -1,13 +1,13 @@
 
 ## React Hello World
 
-**Step 01**: Install nodejs from https://nodejs.org/en/
+- **Step 01**: Install nodejs from https://nodejs.org/en/
 
 - **Step 02**: Create project folder
 
 - **Step 03**: Goto project folder and open termial and use comand
 
-npx create-react-app <project  name>
+``` npx create-react-app <project  name> 　
 
 - **Step 04**: Goto project path and run project use comand
 
@@ -17,5 +17,5 @@ ex: PS C:\Users\Farzana\Desktop\farzana-desktop\React> cd hello-world
 
 PS C:\Users\Farzana\Desktop\farzana-desktop\React\hello-world> npm start
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODI0NzczMiwtMjkwMDk2MzY5XX0=
+eyJoaXN0b3J5IjpbMTY3ODcyMjc5MSwtMjkwMDk2MzY5XX0=
 -->
