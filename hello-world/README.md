@@ -5,7 +5,7 @@
 
 - **Step 02**: Create project folder
 
-- **Step 03**: Goto project folder and open terminal and use comand
+- **Step 03**: Goto project folder & open terminal and use comand for create project
 ``` 
 npx create-react-app <project  name>  
 ex: npx create-react-app hello-world 
@@ -22,5 +22,5 @@ ex:\React> cd hello-world
 **Browser view**
 ![enter image description here](https://github.com/Mfarzana/react/blob/master/images/hello-world.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTExOTMxMiwtMjkwMDk2MzY5XX0=
+eyJoaXN0b3J5IjpbLTE4MDkxODg1NTMsLTI5MDA5NjM2OV19
 -->
