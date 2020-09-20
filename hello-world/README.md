@@ -5,11 +5,12 @@
 
 - **Step 02**: Create project folder
 
-- **Step 03**: Goto project folder and open termial and use comand
-``` npx create-react-app <project  name>  
+- **Step 03**: Goto project folder and open terminal and use comand
+``` 
+npx create-react-app <project  name>  
 ex: npx create-react-app hello-world 
-```
 
+```
 
 - **Step 04**: Goto project path and run project use comand
 ``` 
@@ -18,5 +19,5 @@ ex:\React> cd hello-world
   \React\hello-world> npm start
   ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTU5NjU1OSwtMjkwMDk2MzY5XX0=
+eyJoaXN0b3J5IjpbLTc0MjQ0NDM2NSwtMjkwMDk2MzY5XX0=
 -->
