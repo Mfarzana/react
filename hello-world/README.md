@@ -18,6 +18,8 @@ npm start
 ex:\React> cd hello-world
   \React\hello-world> npm start
   ``` 
+
+**Browser view**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjQ0NDM2NSwtMjkwMDk2MzY5XX0=
+eyJoaXN0b3J5IjpbMTEwMTI2MTMwLC0yOTAwOTYzNjldfQ==
 -->
