@@ -20,6 +20,7 @@ ex:\React> cd hello-world
   ``` 
 
 **Browser view**
+![enter image description here](https://github.com/Mfarzana/react/blob/master/images/hello-world.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTI2MTMwLC0yOTAwOTYzNjldfQ==
+eyJoaXN0b3J5IjpbLTc1OTExOTMxMiwtMjkwMDk2MzY5XX0=
 -->
