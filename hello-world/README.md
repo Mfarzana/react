@@ -14,11 +14,9 @@ ex: npx create-react-app hello-world
 - **Step 04**: Goto project path and run project use comand
 ``` 
 npm start
-ex: PS C:\Users\\Desktop\farzana-desktop\React> cd hello-world
-
-PS C:\Users\Farzana\Desktop\farzana-desktop\React\hello-world> npm start
-
-``` 
+ex:\React> cd hello-world
+  \React\hello-world> npm start
+  ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Mzg4NzY2MiwtMjkwMDk2MzY5XX0=
+eyJoaXN0b3J5IjpbMTIyOTU5NjU1OSwtMjkwMDk2MzY5XX0=
 -->
