@@ -1,4 +1,5 @@
-## JSX
+#JSX
+## Intro JSX
 * JSX stands for JavaScript XML.
 * **JSX allows us to write HTML in React**.
 * JSX is an extension of the JavaScript language based on ES6
@@ -26,8 +27,22 @@ const theExample = (
  );
  
 ```
-### Rendering JSX
+## Rendering JSX
+To render a JSX expression means to make it appear onscreen.
+```
+index.html
+<div id="root"></div>
+```
+**To render a React element into a root DOM node, pass both to ReactDOM.render():**
+```
+app.js
+const element = <h1>Hello, world</h1>;
+ReactDOM.render(element, document.getElementById('root'));
+// It displays “Hello, world” on the page.
+```
+
 
 ## References:
+* https://reactjs.org/docs/getting-started.html#learn-react
 * https://www.codecademy.com/learn/react-101
 * https://www.w3schools.com/react/default.asp
