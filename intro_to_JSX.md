@@ -1,9 +1,10 @@
-#JSX
+# JSX
 ## Intro JSX
 * JSX stands for JavaScript XML.
 * **JSX allows us to write HTML in React**.
 * JSX is an extension of the JavaScript language based on ES6
 * Web browsers can’t read it. If a JavaScript file contains **JSX code**, then that file will**have to be compiled**. That means that before the file reaches a web browser, a JSX compiler will translate any JSX into regular JavaScript.
+**react is a javascript library. Browser doesn’t understand react, in order to run react the code need to converted to JS**
 ```
 app.js
 <h1>Hello world</h1>
@@ -40,7 +41,18 @@ const element = <h1>Hello, world</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 // It displays “Hello, world” on the page.
 ```
-
+##  Virtual DOM
+**ReactDOM.render() is that it only updates DOM elements that have changed.**
+That means that if you render the exact same thing twice in a row, the second render will do nothing:
+```
+const hello = <h1>Hello world</h1>; 
+// This will add "Hello world" to the screen: 
+ReactDOM.render(hello, document.getElementById('app'));
+ 
+// This won't do anything at all: 
+ReactDOM.render(hello, document.getElementById('app'));
+```
+**Only updating the necessary DOM elements**
 
 ## References:
 * https://reactjs.org/docs/getting-started.html#learn-react
