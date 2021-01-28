@@ -54,6 +54,26 @@ ReactDOM.render(hello, document.getElementById('app'));
 ```
 **Only updating the necessary DOM elements**
 
+#### Create a list of JSX elements > Map,  Key
+```
+output
+<ul>
+  <li key="li-01">Example1</li>
+  <li key="li-02">Example2</li>
+  <li key="li-03">Example3</li>
+</ul>
+
+app.js 
+const people = ['Rowe', 'Prevost', 'Gare'];
+const peopleLis = people.map((person,i) =><li key={'person_' + i}>{person}</li>
+);
+ReactDOM.render(<ul>{peopleLis}</ul>,document.getElementById('app'));
+
+
+```
+
+
+
 ## References:
 * https://reactjs.org/docs/getting-started.html#learn-react
 * https://www.codecademy.com/learn/react-101
