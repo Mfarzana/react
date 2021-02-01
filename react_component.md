@@ -1,6 +1,31 @@
-## Component
+
+## React Component
 **A component is a small, reusable chunk** of code that is responsible for one job. That job is often to render some HTML.
 React requires that the **first letter of components be capitalized**. If the first letter of a name is capitalized, then JSX knows it’s a component instance;if not, then it’s an HTML elemen
+```
+// This is considered a component by React.
+<ThisComponent />
+  
+// This is considered a JSX HTML tag. 
+<div>
+```
+## Create First React Component
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class MyComponentClass extends React.Component {
+  render() {
+    return <h1>Hello world</h1>;
+  }
+}
+
+ReactDOM.render(
+	<MyComponentClass />, 
+	document.getElementById('app')
+);
+
+```
 
 #### Import React
 import React from 'react' creates a JavaScript object. This object contains properties that are needed to make React work, such as React.createElement() and React.Component.
@@ -31,9 +56,9 @@ class MyComponent extends React.Component {
   }
 }
 ```
-
+#### Create a Component Instance
 ```
-## <MyComponent /> is a Component 
+<MyComponent /> is a Component Instance 
 ReactDOM.render(<MyComponent />, document.getElementById('app')); 
 
 ```
