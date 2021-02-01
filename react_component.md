@@ -4,8 +4,14 @@ React requires that the **first letter of components be capitalized**. If the fi
 
 ```
 ## create a variable named React, creates an object that contains properties needed to make React work
-import React from 'react'; // ## In order to use React, we must first import the React library. 
-import ReactDOM from 'react-dom'; 
+## In order to use React, we must first import the React library. 
+## import JavaScript objects,imported object contains React-related methods
+import React from 'react'; 
+
+## import JavaScript objects,imported object contains React-related methods
+## interacting with the DOM
+import ReactDOM from 'react-dom';  
+
 class MyComponent extends React.Component {
   render() {
     return <h1>Hello world!</h1>;
