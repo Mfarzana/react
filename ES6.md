@@ -1,5 +1,6 @@
-Destructuring is a JavaScript expression that makes it possible to **unpack values from arrays, or properties from objects**, into distinct variables.
 ## Destructuring Assignment in ES6- Arrays
+Destructuring is a JavaScript expression that makes it possible to **unpack values from arrays, or properties from objects**, into distinct variables.
+
 **JavaScript, Extract data from an array**
 ```
     var numbers = [1,2,3];
