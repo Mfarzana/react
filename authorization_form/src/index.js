@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // custom component
-import ComponentExample from './ComponentExample'
+//import ComponentExample from './ComponentExample'
+import AuthForm from './authForm'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ComponentExample />
+    <AuthForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
