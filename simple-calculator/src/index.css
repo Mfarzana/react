@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+input{
+    display: block;
+    box-sizing: border-box;
+    border-color:black;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+  
+
+}
+button{
+    margin: .5rem;
+    padding: 1rem;
+    font-weight: bold;
+
+}
